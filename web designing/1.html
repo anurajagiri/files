@@ -1,0 +1,45 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<script>
+    function validate()
+    {
+        var uname = document.getElementById("nametxt");
+        var pwrd = document.getElementById("pwrdtxt");
+        if(uname.value.length==0 || pwrd.value.length==0)
+            alert("Fields Cannot be Blank");
+        else if(uname.value=="Anagha" && pwrd.value=="pwrd")
+            alert("Login Successful");
+        else
+            alert("Login Fail");
+    }
+</script>
+<title> Home Page- WIn WIn MoBilE StOrE</title>
+</head>
+<body>
+<center>
+<h1> Welcome to WIn WIn Mobile store</h1>
+<h4><i>You're in good hands with WIn WIn</i></h4>
+<a href="mobile.html">
+<img src="D:\WTL\images\5.png" width="1000px" width="750px"></a>
+<h3> LOGIN </h3>
+<form>
+<label> Name: </label> 
+<input type="text" placeholder="Enter your name" id="nametxt"><br><br>
+ <label> Password: </label> 
+<input type="password" placeholder="Enter password" id="pwrdtxt"><br> <br>
+<button type="button" onclick="validate()">Login</button>
+</form>
+
+</a>
+<h4> <i> Login to your account to get amazing offers </i> </h4></center>
+<br><center> <a href="contact.html"> <h4> Contact Us 
+ </h4>
+<img src="D:\WTL\images\6.png" width="1000px" width="750px">
+</center>
+</body>
+</html>
+
+
+
+
